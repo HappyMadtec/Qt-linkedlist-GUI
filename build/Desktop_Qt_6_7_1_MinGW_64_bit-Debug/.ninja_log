@@ -1,0 +1,9 @@
+# ninja log v5
+11	160	7419677943679094	untitled_autogen/timestamp	f7e25b62f95a37df
+11	160	7419677943679094	C:/Users/Madtec/Documents/untitled/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/untitled_autogen/timestamp	f7e25b62f95a37df
+736	2691	7419614375243737	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	945a073673f307fd
+11	160	7419677943679094	untitled_autogen/mocs_compilation.cpp	f7e25b62f95a37df
+11	160	7419677943679094	C:/Users/Madtec/Documents/untitled/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/untitled_autogen/mocs_compilation.cpp	f7e25b62f95a37df
+2099	2314	7419677965186846	untitled.exe	ff105f70b0f41e5c
+164	2099	7419677963072708	CMakeFiles/untitled.dir/mainwindow.cpp.obj	5b77baef9ee9e38e
+167	610	7419677948172389	CMakeFiles/untitled.dir/main.cpp.obj	1097f78fd12ca875
