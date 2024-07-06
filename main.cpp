@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <mutex>
 
 
 // linked list
@@ -10,6 +11,32 @@ struct Node{
     Node* next;
 
     Node(int data): data(data), next(nullptr){}
+};
+
+struct LLNode{
+    int data;
+    LLNode* next;
+    LLNode* prev;
+    LLNode(int data):data(data), next(nullptr), prev(nullptr){}
+};
+class DoublyLinkedList{
+    public:
+    DoublyLinkedList(): head(nullptr), tail(nullptr){}
+    ~DoublyLinkedList(){
+
+
+    }
+    void insertHead(int data);
+    void insertTail(int data);
+    void deleteNode(int data);
+    void displayForward() const;
+    void displayBackward() const;
+    void displayWithArrows() const;
+
+    private:
+        LLNode* head;
+        LLNode* tail;
+
 };
 
 class linkedList{
